@@ -141,5 +141,33 @@ section{
 
 /* end structure column */
 
+/* media query */
 
+@media screen and ( max-width: 480px ) {
+
+    .container{
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+}
+
+@media screen and ( min-width: 481px ) and ( max-width: 768px ) {
+
+    .container{
+
+        width: 100%;
+
+    }
+
+    .col_md_6{
+
+        width: 100%;
+
+    }
+
+}
 
