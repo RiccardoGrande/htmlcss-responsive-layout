@@ -27,11 +27,17 @@ body{
 
 }
 
-.debug[class^="col_"]{
+.debug [class^="col_"] {
 
     padding: 20px;
-    margin: 0 -5rem;
+    margin: 5px;
 
+}
+
+body{
+
+    max-width: 1400px;
+    margin: auto;
 }
 
 #navbar{
@@ -39,6 +45,12 @@ body{
     max-width: 1400px;
     margin: auto;
     background-color: var(--lr-blue);
+}
+
+#nav_container{
+
+    margin: 0 auto;
+
 }
 
 .container{
@@ -49,19 +61,42 @@ body{
     display: flex;
     flex-wrap: wrap;
 
+
 }
 
-.demo{
+section{
 
     margin: 10px auto;
 
 }
+
+
+
 
 #planning{
 
     background-color: var(--lr-violet);
 
 }
+
+#benefits{
+
+    background-color: var(--lr-violet);
+
+}
+
+#get_started{
+
+    background-color: var(--lr-violet);
+
+}
+
+#app_footer{
+    
+    background-color: var(--lr-dark);
+
+}
+
 
 .col_4{
 
@@ -86,4 +121,6 @@ body{
     width: 100%;
 
 }
+
+
 
