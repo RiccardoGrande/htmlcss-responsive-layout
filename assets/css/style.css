@@ -28,17 +28,13 @@ body{
 
 
 
-.debug{
+
+
+.debug [class^="col_"] {
 
     border: 1px solid black;
     height: 200px;
 
-}
-
-.debug [class^="col_"] {
-
-    padding: 20px;
-    margin: 5px;
 
 }
 
@@ -57,7 +53,34 @@ body{
 #nav_container{
 
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
 
+#logo img{
+
+    height: 70%;
+
+}
+
+#link{
+
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    color: white;
+
+}
+
+#nav_button{
+
+    border-radius: 25px;
+    padding: 5px 10px;
+    background-color: #fff;
+    margin: -5px;
+    text-decoration: none;
 }
 
 /* end header */
@@ -118,25 +141,26 @@ section{
 .col_4{
 
     width: calc( 100% / 12 * 4);
-
+    height: 200px;
+    
 }
 
 .col_6{
 
     width: calc( 100% / 12 * 6);
-
+    height: 200px;
 }
 
 .col_8{
 
     width: calc( 100% / 12 * 8);
-
+    height: 200px;
 }
 
 .col_12{
 
     width: 100%;
-
+    height: 200px;
 }
 
 /* end structure column */
@@ -166,6 +190,12 @@ section{
     .col_md_6{
 
         width: 100%;
+
+    }
+
+    .col_md_4{
+
+        width: 50%;
 
     }
 
