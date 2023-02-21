@@ -160,7 +160,7 @@ section{
     
 }
 
-#icon{
+.icon{
 
     font-size: 40px;
     color: var(--lr-blue);
