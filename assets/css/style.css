@@ -163,8 +163,9 @@ section{
 
 #icon{
 
-    height: 20%;
-
+    font-size: 40px;
+    color: var(--lr-blue);
+    padding-top: 20px;
 }
 
 .text{
