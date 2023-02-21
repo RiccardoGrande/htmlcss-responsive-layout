@@ -487,6 +487,14 @@ section{
         flex-direction: inherit;
     }
 
+    .demo_apply_contained{
+
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+
     #link{
 
         display: none;
