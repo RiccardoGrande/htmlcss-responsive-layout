@@ -61,7 +61,7 @@ body{
 
 #logo img{
 
-    height: 70%;
+    height: 60%;
 
 }
 
@@ -95,7 +95,6 @@ body{
     display: flex;
     flex-wrap: wrap;
 
-
 }
 
 section{
@@ -108,6 +107,71 @@ section{
 
 
 /* utility */
+
+.demo_apply_contained{
+
+    width: 95%;
+    height: 95%;
+    border-radius: 25px;
+    border: 1px solid black;
+    margin: 5px auto;
+    display: flex;
+    background-color: var(--lr-lightblue);
+    
+}
+
+.demo_application{
+
+    width: 50%;
+    padding: 5px;
+}
+
+#clean_code{
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#img_phone_apply{
+
+    height: 100%;
+    margin-left: 50px;
+}
+
+.application{
+
+    padding: 10px;
+}
+
+#app_store{
+
+    border: none;
+    background-color: var(--lr-blue);
+    color: white;
+    border-radius: 25px;
+    padding: 5px 15px;
+    margin: 10px;
+
+}
+
+.title{
+
+    color: var(--lr-blue);
+    
+}
+
+#icon{
+
+    height: 20%;
+
+}
+
+.text{
+
+    color: grey;
+    font-size: 12px;
+}
 
 #planning{
 
