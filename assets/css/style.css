@@ -176,7 +176,7 @@ section{
 #planning{
 
     background-color: var(--lr-violet);
-
+    padding: 20px;
 }
 
 .container_img{
@@ -206,8 +206,15 @@ section{
 
 .second_img{
 
-    height: 70%;
+    height: 65%;
     
+}
+
+#arrow_down{
+
+    background-color: var(--lr-violet);
+    border-radius: 50%;
+    padding: 5px;
 }
 
 #title_plan{
@@ -262,6 +269,7 @@ section{
     width: calc( 100% / 12 * 6);
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
 }
 
 .col_8{
