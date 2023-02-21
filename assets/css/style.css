@@ -90,7 +90,7 @@ body{
 .container{
 
     width: 70%;
-    margin: auto;
+    margin: 20px auto;
     background-color: #959090;
     display: flex;
     flex-wrap: wrap;
@@ -179,6 +179,54 @@ section{
 
 }
 
+.container_img{
+
+    height: 50%;
+
+}
+
+.white_bg{
+
+    border-radius: 25px;
+    background-color: #fff;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.img_planning{
+
+    height: 100%;
+    padding: 30px 50px;
+
+}
+
+.second_img{
+
+    height: 70%;
+    
+}
+
+#title_plan{
+
+    color: white;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+#text_plan{
+
+    color: white;
+    font-size: 14px;
+    padding: 31px;
+    line-height: 1.6;
+    margin-left: 20px;
+    
+}
+
 #benefits{
 
     background-color: var(--lr-violet);
@@ -212,7 +260,8 @@ section{
 .col_6{
 
     width: calc( 100% / 12 * 6);
-    height: 200px;
+    display: flex;
+    flex-direction: column;
 }
 
 .col_8{
