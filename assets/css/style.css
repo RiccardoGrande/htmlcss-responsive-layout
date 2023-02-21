@@ -481,6 +481,12 @@ section{
 
     }
 
+    #nav_container{
+
+        display: flex;
+        flex-direction: inherit;
+    }
+
     #link{
 
         display: none;
